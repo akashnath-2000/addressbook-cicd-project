@@ -1,4 +1,4 @@
-#This is a sample script
+
 pipeline{
     agent any
     stages{
