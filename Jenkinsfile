@@ -1,3 +1,4 @@
+print("Hello World")
 pipeline{
     agent any
     stages{
