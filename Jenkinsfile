@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('github validation'){
+        stage('github validation '){
           steps{
                  git url: 'https://github.com/akshu20791/addressbook-cicd-project'
           }
@@ -11,7 +11,7 @@ pipeline{
                  sh 'mvn compile'
           }
         }
-        stage('testing the code'){
+        stage('testing the practical code'){
             steps{
                 sh 'mvn test'
             }
